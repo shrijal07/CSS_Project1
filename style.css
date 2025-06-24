@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+   width: 100%; 
+   height: 100%;
+}
+#main {
+    width: 100%;
+    height: 100%;
+}
+#nav{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 5px 80px;
+}
+#nav h4{
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+#center h1{
+    font-family: sans-serif;
+    padding: 25px 90px;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 350;
+
+}
+#center-in{
+    font-family: sans-serif;
+    padding: 0px 90px;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 350;
+    display: flex;
+    justify-content: space-between;
+}
+#right{
+    width:25%
+}
+.elem{
+    padding: 8px 0px;
+    border-top: 2px solid black;
+}
+.elem a{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 350;
+}
+.elem:hover a{
+    background-color: rgb(215, 196, 233);
+    text-decoration: underline;
+}
+#bottom{
+    height: 46.2%;
+    width:100%;
+    background-image: url(https://imgs.search.brave.com/snbHNSaOhlueUCXmboTuYcJp5oRpArrJ2cB1B61AJyg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3F1YXJlc3Bh/Y2UtY2RuLmNvbS9j/b250ZW50L3YxLzUy/YWNjN2I3ZTRiMDUz/MmMxNjVkOWM2OC8x/NTQ3NjkzNTEwOTkw/LVRGQkc3NVNBMURJ/TUVSWVA3WUpEL2xp/c2EtY2FudC1ieS1h/bGV4aS1sdWJvbWly/c2tpLXZvZ3VlLWRl/dXRzY2gtZGVjZW1i/ZXItMjAwNy5qcGc);
+    background-size: cover;
+    background-position: 40% 20%;
+}
+
+@media (max-width:500px) {
+    #main {
+        width: 100%;
+        height: 100%;
+    }
+    #nav{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        padding: 0px 20px;
+    }  
+    #nav h4{
+        font-family: sans-serif;
+        font-size: 12px;
+        font-weight: 250;
+    
+    }
+    #center h1{
+        height: 158px;
+        padding: 20px 20px;
+        font-size: 33px;
+        line-height: 38px;
+        font-weight: 360;
+    }
+    #center-in{
+        height:200px;
+        font-size: 15px;
+        line-height: 22px;
+        padding: 1px 20px;
+
+    }
+    #right{
+        width: 200px;
+        padding: 110px 0px;
+        
+    }
+    .elem {
+        justify-content: end;
+        padding: 0px 0px;
+        
+    }
+    .elem a{
+        font-size: 11px;
+        font-weight: 250;
+    }
+    .elem:hover a{
+        background-color: rgb(215, 196, 233);
+        text-decoration: underline;
+    }
+       
+    #bottom{
+        height: 40.5%;
+        background-image: url(https://imgs.search.brave.com/snbHNSaOhlueUCXmboTuYcJp5oRpArrJ2cB1B61AJyg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3F1YXJlc3Bh/Y2UtY2RuLmNvbS9j/b250ZW50L3YxLzUy/YWNjN2I3ZTRiMDUz/MmMxNjVkOWM2OC8x/NTQ3NjkzNTEwOTkw/LVRGQkc3NVNBMURJ/TUVSWVA3WUpEL2xp/c2EtY2FudC1ieS1h/bGV4aS1sdWJvbWly/c2tpLXZvZ3VlLWRl/dXRzY2gtZGVjZW1i/ZXItMjAwNy5qcGc);
+        background-position: 0% 21%;
+    }
+    
+}
